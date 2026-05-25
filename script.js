@@ -5,4 +5,4 @@ while(element.parentElement){
 	level++;
 	element=element.parentElement
 }
-console.log(level);
+alert("The level of the element is:" level)
